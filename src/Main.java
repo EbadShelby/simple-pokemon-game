@@ -3,12 +3,13 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+        Scanner scanner = new Scanner(System.in);
+
         System.out.println("============================================");
         System.out.println("|     | Welcome to Console X Pokemon |     |");
         System.out.println("============================================");
-
-        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter your player name: ");
+
         String userName = scanner.nextLine();
         System.out.println(" ");
         System.out.println("============================================");
@@ -30,13 +31,13 @@ public class Main {
         System.out.println("============================================");
         System.out.print("Enter your choice: ");
         int userChoice = scanner.nextInt();
-        switch (userChoice) {
-            case 1:
-                System.out.println("s");
-                break;
-            case 2:
-                System.out.println("s");
-                break;
-        }
+//        switch (userChoice) {
+//            case 1:
+//                System.out.println("s");
+//                break;
+//            case 2:
+//                System.out.println("s");
+//                break;
+//        }
     }
 }
