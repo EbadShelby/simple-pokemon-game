@@ -4,6 +4,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) throws IOException {
         Scanner scanner = new Scanner(System.in);
+        Pokemon pikachu = new Pokemon("pikachu", "electric", "normal", 1, 10, "iron tail", 3);
+
 
         System.out.println("============================================");
         System.out.println("|     | Welcome to Console X Pokemon |     |");
